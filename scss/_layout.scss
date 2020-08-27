@@ -124,14 +124,13 @@ footer a {
 }
 #linksFooter {
     display: flex;
-    direction: row;
     justify-content: space-around;
     align-content: center;
 }
 .socialmedia {
     display: flex;
-    direction: row;
     height: 85%;
+    margin: 5px;
 }
 .icon {
     align-self: center;
