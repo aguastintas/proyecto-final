@@ -1,0 +1,12 @@
+div#regulares {
+	transition: all 1s;
+}
+div #regulares:hover {
+	transform: scale(1.05);
+}
+div#personalizados {
+	transition: all 1s;
+}
+div #personalizados:hover {
+	transform: scale(1.05);
+}

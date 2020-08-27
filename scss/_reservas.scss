@@ -1,0 +1,52 @@
+.imagenesReservas {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #ACA8A8;
+	margin-top: 10px;
+}
+.columnaCaja {
+	flex-basis: 450px;
+	border: 1px solid #ACA8A8;
+	margin: 10px;
+	padding-top: 10px;
+}
+#columnas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media screen and (max-width: 768px) {	
+	#columnas {
+		display: flex;
+		flex-direction: column;
+	}
+	.columnaCaja {
+		margin: 2rem;
+		padding: 0.5rem;
+	}
+}
+section#recoleta {
+	transition: all 1s;	
+}
+section#recoleta:hover {
+	transform: scale(1.05);
+}
+
+section#jardinjapones {
+	transition: all 1s;
+}
+section#jardinjapones:hover {
+	transform: scale(1.05);
+}
+
+section#plazademayo {
+	transition: all 1s;
+}
+section#plazademayo:hover {
+	transform: scale(1.05);
+	z-index: 50;
+}
+ .zindexReservas {
+	z-index: 1;
+}

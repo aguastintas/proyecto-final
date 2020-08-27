@@ -1,0 +1,137 @@
+/* HEADER Y MENU DESPLEGABLE */
+header {
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 500;
+}
+header nav {
+    position: fixed;
+    top: 16px;
+    right: 22px;
+}
+header h4 {
+    color: black;
+    padding: 10px;
+    text-decoration-line: none;
+    font-family: 'Nunito' sans-serif;
+    font-weight: 400;
+}
+nav {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 13px;
+}
+nav a {
+    color: black;
+    text-decoration-line: none;
+    font-family: 'Nunito' sans-serif;
+    font-weight: 300;
+}
+a:hover {
+    color: #ACA8A8;
+}
+#menudesplegable {
+    display: none;
+}
+div h4 {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    header{
+        display: none;
+    }
+    div h4{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+        background-color: $lila;
+        padding: 10px;
+        color: white;
+        margin: 0;
+    }
+    #menudesplegable{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .menu {
+        background-color: $verde;
+    }
+    .botonMenu {
+        color: white;
+        font-size: 2rem;
+    }
+    #menudesplegable button:focus {
+        text-decoration: none;
+        color: white;
+    }
+    #menudesplegable button:hover {
+        text-decoration: none;
+        color: white;
+    }
+    .menuitems {
+        font-size: 2rem;
+        border: 1px solid grey;
+    }
+    #anchomenu {
+        justify-content: stretch;
+    }
+  }
+
+/* FOOTER */
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    background-color: $lila;
+    text-align: center;
+    margin: 0;
+}
+footer div {
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.newsletterfooter {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+#botonNewsletter {
+    height: 25px;
+    width: 65px;
+    padding: 0;
+    margin: 2%;
+}
+.margenesFooter {
+    margin: 0;
+    padding: 15px;
+}
+#linksFooter {
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.socialmedia {
+    display: flex;
+    direction: row;
+    height: 85%;
+}
+.icon {
+    align-self: center;
+    padding: 0 5px;
+}
+  

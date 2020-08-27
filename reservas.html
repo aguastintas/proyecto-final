@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Reservas | Buenos Aires Tour</title>
+	<meta name="description" content="Reservas">
+	<meta name="keywords" content="tour, paseo, buenos aires">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	<header>
+		<h4>Buenos Aires Tour</h4>
+		<nav>
+			<a href="index.html">home</a>
+			<a href="tours.html">tours</a>
+			<a href="reservas.html">reservas</a>
+			<a href="about.html">about</a>
+			<a href="contacto.html">contacto</a>
+		</nav>
+	</header>
+	<div><h4>Buenos Aires Tour</h4></div>
+	<div id="menudesplegable" class="menu">
+		<div id="anchomenu" class="dropdown">
+			<button class="btn dropdown-toggle botonMenu" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    			<a class="dropdown-item menuitems" href="index.html">Home</a>
+    			<a class="dropdown-item menuitems" href="tours.html">Tours</a>
+    			<a class="dropdown-item menuitems" href="about.html">About</a>
+    			<a class="dropdown-item menuitems" href="contacto.html">Contacto</a>
+			</div>
+		</div>
+	</div>
+	<main class="zindexReservas">
+		<h1>Próximos Tours</h1>
+		<div id=columnas>
+			<section id="recoleta" class="columnaCaja animate__animated animate__fadeIn">
+				<img src="multimedia/cementerio.jpg" alt="Cementerio de la Recoleta" height="150px" width="150px" class="imagenesReservas" class="zindex">
+				<h2>Nombre1</h2>
+				<h3>14 de Julio</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit qui, tenetur aspernatur modi nemo, quam laboriosam asperiores explicabo numquam, deserunt maxime. Numquam molestiae, quas. Placeat quaerat veniam magni nemo. Ipsum!</p>
+				<p><a href="datos.html" class="main__link--fuente formbutton">reservar</a></p>
+			</section>
+			<section id="jardinjapones" class="columnaCaja animate__animated animate__fadeIn">
+				<img src="multimedia/jardinjapones.jpg" alt="Jardín Japones" height="150px" width="150px" class="imagenesReservas">
+				<h2>Nombre2</h2>
+				<h3>21 de Julio</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit qui, tenetur aspernatur modi nemo, quam laboriosam asperiores explicabo numquam, deserunt maxime. Numquam molestiae, quas. Placeat quaerat veniam magni nemo. Ipsum!</p>
+				<p><a href="datos.html" class="main__link--fuente formbutton">reservar</a></p>
+			</section>
+			<section id="plazademayo" class="columnaCaja animate__animated animate__fadeIn">
+				<img src="multimedia/plazademayo.jpg" alt="Plaza de Mayo" height="150px" width="150px" class="imagenesReservas">
+				<h2>Nombre3</h2>
+				<h3>2 de Agosto</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit qui, tenetur aspernatur modi nemo, quam laboriosam asperiores explicabo numquam, deserunt maxime. Numquam molestiae, quas. Placeat quaerat veniam magni nemo. Ipsum!</p>
+				<p><a href="datos.html" class="main__link--fuente formbutton">reservar</a></p>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 margenesFooter"><img src="multimedia/logoverde.jpg" alt="BAtour" height="70px"></div>
+				<div class="col-md-6 margenesFooter"><label for="inputEmail4">Suscribite al <strong>newsletter</strong> para recibir información sobre los próximos tours.</label>
+					<input type="email" class="newsletterfooter" id="inputEmail4">
+					<button type="submit" id="botonNewsletter" class="formbutton">Enviar</button></div>
+				<div id="linksFooter" class="col-md-4 margenesFooter">
+					<div class="margenesFooter">
+						<a href="contacto.html" class="formbutton">Contactanos</a>
+					</div>
+					<div class="socialmedia">
+						<div class="icon"><a href="https://www.instagram.com/" >
+							<img src="https://turningheadsfi.files.wordpress.com/2018/08/instagram-logo-128x128.png?w=128" alt="Instagram" width="25px" height="25px">
+						</a></div>
+						<div class="icon"><a href="https://www.facebook.com/">
+							<img src="https://www.guitarra.com.uy/wp-content/uploads/2017/08/facebook.png" alt="facebook" width="25px" height="25px">
+						</a></div>
+						<div class="icon"><a href="https://www.twitter.com/">
+							<img src="https://sites.google.com/site/tendenciaseducativas01/_/rsrc/1486665890182/redes-sociales-facebook-twitter-etc/Twitter-Download-PNG.png?height=320&width=320" alt="twitter" width="25px" height="25px"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
