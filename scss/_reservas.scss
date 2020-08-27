@@ -5,11 +5,18 @@
 	border: 1px solid #ACA8A8;
 	margin-top: 10px;
 }
+.flexReservas {
+	display:flex;
+	justify-content: center;
+	margin: 0 10px 30px;
+}
+
 .columnaCaja {
-	flex-basis: 450px;
+	flex-basis: 30em;
 	border: 1px solid #ACA8A8;
-	margin: 10px;
+	margin: 30px;
 	padding-top: 10px;
+	box-shadow: 5px 5px 10px grey;
 }
 #columnas {
 	display: flex;
@@ -31,6 +38,7 @@ section#recoleta {
 }
 section#recoleta:hover {
 	transform: scale(1.05);
+	box-shadow: 20px 20px 5px grey;
 }
 
 section#jardinjapones {
@@ -38,6 +46,7 @@ section#jardinjapones {
 }
 section#jardinjapones:hover {
 	transform: scale(1.05);
+	box-shadow: 20px 20px 5px grey;
 }
 
 section#plazademayo {
@@ -45,7 +54,7 @@ section#plazademayo {
 }
 section#plazademayo:hover {
 	transform: scale(1.05);
-	z-index: 50;
+	box-shadow: 20px 20px 5px grey;
 }
  .zindexReservas {
 	z-index: 1;

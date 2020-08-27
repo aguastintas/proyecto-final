@@ -23,6 +23,7 @@
 	text-decoration-line: none;
 	color: white;
 	padding: 4px;
+	font-size: 0.8rem;
 }
 #botonFP {
 	margin: 10px;
@@ -43,10 +44,11 @@
 }
 .main__boton--posicion {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	margin-top: 20px;
 }
+
 .div__texto--fuente {
 	font-family: "Nunito", sans-serif;
 	font-size: 0.8rem;

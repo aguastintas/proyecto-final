@@ -24,14 +24,16 @@ h6 {
 
 h2 {
   font-weight: 600;
-  margin-top: 15px; }
+  margin-top: 15px;
+  font-size: 1.5rem; }
 
 h3 {
   font-weight: 300;
-  font-style: italic; }
+  font-style: italic;
+  font-size: 1.3rem; }
 
 h5 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   padding: 3px;
   margin: 2px; }
@@ -41,7 +43,8 @@ h6 {
   font-style: italic;
   font-weight: 200;
   padding: 3px;
-  margin: 2px; }
+  margin: 2px;
+  color: black; }
 
 html {
   background-color: white;
@@ -64,14 +67,15 @@ h1 {
   text-align: center;
   padding-top: 35px;
   padding-bottom: 15px;
-  color: #80658e; }
+  color: #80658e;
+  font-size: 1.9em; }
 
 p {
   font-family: "Nunito", sans-serif;
   text-align: justify;
-  margin: 30px;
+  margin: 30px 40px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 1em;
   display: flex;
   justify-content: center; }
 
@@ -228,7 +232,8 @@ footer a {
   text-transform: uppercase;
   text-decoration-line: none;
   color: white;
-  padding: 4px; }
+  padding: 4px;
+  font-size: 0.8rem; }
 
 #botonFP {
   margin: 10px; }
@@ -249,7 +254,7 @@ footer a {
 
 .main__boton--posicion {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   margin-top: 20px; }
 
@@ -378,11 +383,17 @@ form button:hover {
   border: 1px solid #ACA8A8;
   margin-top: 10px; }
 
+.flexReservas {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px 30px; }
+
 .columnaCaja {
-  flex-basis: 450px;
+  flex-basis: 30em;
   border: 1px solid #ACA8A8;
-  margin: 10px;
-  padding-top: 10px; }
+  margin: 30px;
+  padding-top: 10px;
+  box-shadow: 5px 5px 10px grey; }
 
 #columnas {
   display: flex;
@@ -401,20 +412,22 @@ section#recoleta {
   transition: all 1s; }
 
 section#recoleta:hover {
-  transform: scale(1.05); }
+  transform: scale(1.05);
+  box-shadow: 20px 20px 5px grey; }
 
 section#jardinjapones {
   transition: all 1s; }
 
 section#jardinjapones:hover {
-  transform: scale(1.05); }
+  transform: scale(1.05);
+  box-shadow: 20px 20px 5px grey; }
 
 section#plazademayo {
   transition: all 1s; }
 
 section#plazademayo:hover {
   transform: scale(1.05);
-  z-index: 50; }
+  box-shadow: 20px 20px 5px grey; }
 
 .zindexReservas {
   z-index: 1; }
