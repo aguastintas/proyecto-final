@@ -1,6 +1,5 @@
 form {
 	font-family: "Nunito", sans-serif;
-	font-size: 130%;
 	letter-spacing: 1px;
 	word-spacing: 3px;
 	text-align: left;
@@ -15,6 +14,12 @@ form select {
 	font-size: 18px;
 	width: 100%;
 	padding: 3px;
+}
+.checkboxMargenes {
+	margin: 25px 0;
+}
+.checkboxTexto {
+	margin: 0 20px;
 }
 .form-control:focus {
     background-color: #fff;
