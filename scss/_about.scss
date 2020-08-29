@@ -1,17 +1,29 @@
 .contenedorGuias {
-	border: 2px solid lightgrey;
 	margin: 20px 0;
-}
-.bordeGuias {
-	border-right: 2px solid darkgrey;
 }
 .margenesTexto {
 	margin: 30px;
+	text-align:right;
 }
 .margenesSecciones {
 	margin: 20px;
 }
-
+.imagenGuiasAbout {
+	margin: 10px;
+	border: 2px solid black;
+}
+#imagenAbout {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
+#tituloAbout {
+	padding: 10px;
+	margin: 5px;
+}
 @media screen and (max-width: 990px) {
 	.bordeGuias {
 		border-right: none;
