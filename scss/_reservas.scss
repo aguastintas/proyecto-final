@@ -33,29 +33,51 @@
 		padding: 0.5rem;
 	}
 }
-section#recoleta {
+section.paseos {
 	transition: all 1s;	
 }
-section#recoleta:hover {
-	transform: scale(1.05);
-	box-shadow: 20px 20px 5px grey;
-}
-
-section#jardinjapones {
-	transition: all 1s;
-}
-section#jardinjapones:hover {
-	transform: scale(1.05);
-	box-shadow: 20px 20px 5px grey;
-}
-
-section#plazademayo {
-	transition: all 1s;
-}
-section#plazademayo:hover {
+section.paseos:hover {
 	transform: scale(1.05);
 	box-shadow: 20px 20px 5px grey;
 }
  .zindexReservas {
 	z-index: 1;
+}
+#recoleta {
+	border-left: 2px solid gray;
+	margin: 20px;
+	padding: 10px;
+}
+#palermo {
+	border-right: 2px solid gray;
+	margin: 20px;
+	padding: 10px;
+}
+#microcentro {
+	border-left: 2px solid gray;
+	margin: 20px;
+	padding: 10px;
+}
+.info__imagenes--margenes {
+	margin: 10px;
+	padding: 10px;
+	align-self: center;
+	justify-self: center;
+}
+.info__imagen--posicion {
+	display:flex;
+	flex-direction: column;
+}
+.info__texto--margenes {
+	margin: 10px 0;
+	padding:10px;
+	display:flex;
+	flex-direction: column;
+	p {
+		margin:5px 20px;
+		padding: 10px 30px;
+	}
+	ol {
+		align-self: center;
+	}
 }
