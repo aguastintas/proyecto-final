@@ -237,10 +237,12 @@ footer a {
 
 .cardtexto {
   margin: 5px;
-  padding: 10px; }
+  padding: 10px;
+  text-align: center; }
 
 .margenesHome {
-  padding: 30px 0px 0px 10px; }
+  margin: 20px 0;
+  padding: 20px 10px; }
 
 .posicionhome {
   display: flex;
@@ -439,20 +441,11 @@ section.paseos:hover {
 .zindexReservas {
   z-index: 1; }
 
-#recoleta {
-  border-left: 2px solid gray;
-  margin: 20px;
-  padding: 10px; }
+.bordeIzq {
+  border-left: 2px solid gray; }
 
-#palermo {
-  border-right: 2px solid gray;
-  margin: 20px;
-  padding: 10px; }
-
-#microcentro {
-  border-left: 2px solid gray;
-  margin: 20px;
-  padding: 10px; }
+.bordeDer {
+  border-right: 2px solid gray; }
 
 .info__imagenes--margenes {
   margin: 10px;
@@ -474,6 +467,10 @@ section.paseos:hover {
     padding: 10px 30px; }
   .info__texto--margenes ol {
     align-self: center; }
+
+.margenesReservas {
+  margin: 30px;
+  padding: 10px; }
 
 div#regulares {
   transition: all 1s; }

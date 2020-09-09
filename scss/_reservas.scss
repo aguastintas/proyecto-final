@@ -43,20 +43,11 @@ section.paseos:hover {
  .zindexReservas {
 	z-index: 1;
 }
-#recoleta {
+.bordeIzq {
 	border-left: 2px solid gray;
-	margin: 20px;
-	padding: 10px;
 }
-#palermo {
+.bordeDer {
 	border-right: 2px solid gray;
-	margin: 20px;
-	padding: 10px;
-}
-#microcentro {
-	border-left: 2px solid gray;
-	margin: 20px;
-	padding: 10px;
 }
 .info__imagenes--margenes {
 	margin: 10px;
@@ -80,4 +71,8 @@ section.paseos:hover {
 	ol {
 		align-self: center;
 	}
+}
+.margenesReservas {
+	margin: 30px;
+	padding:10px;
 }
