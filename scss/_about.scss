@@ -1,9 +1,8 @@
 .contenedorGuias {
-	margin: 20px 0;
+	margin: 2rem 0 4rem;
 }
 .margenesTexto {
 	margin: 30px;
-	text-align:right;
 }
 .margenesSecciones {
 	margin: 20px;
@@ -24,17 +23,27 @@
 	padding: 10px;
 	margin: 5px;
 }
-@media screen and (max-width: 990px) {
-	.bordeGuias {
-		border-right: none;
-		border-bottom: 2px solid lightgrey;
-		margin:10px;
-		padding: 10px;
+@media screen and (max-width:990px) {
+	.imagenGuiasAbout{
+		width: 10rem;
+		height: 10rem;
 	}
-	#cabildo {
-		display:none;
+}
+@media screen and (max-width: 574px) {
+	.margenesTexto {
+		text-align: justify;
 	}
-	#congreso {
-		display: none;
+	.xslayout {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.xslayoutchild {
+		display: flex;
+		justify-content: center;	
+	}
+}
+@media screen and (min-width: 700px) {
+	.margenesTexto {
+		text-align: right;
 	}
 }

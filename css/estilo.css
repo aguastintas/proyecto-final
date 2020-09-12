@@ -58,8 +58,6 @@ body {
   max-width: 100%; }
 
 main {
-  padding: 0 30px 20px;
-  margin: 0 20px 20px;
   height: 100%; }
 
 h1 {
@@ -213,6 +211,7 @@ footer a {
 
 .background {
   background-image: url(../multimedia/fondohome.jpg);
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .backgroundCards {
@@ -249,8 +248,8 @@ footer a {
   text-align: center; }
 
 .margenesHome {
-  margin: 20px 0;
-  padding: 20px 10px; }
+  margin-bottom: 50px;
+  padding: 30px; }
 
 .posicionhome {
   display: flex;
@@ -293,7 +292,6 @@ h1 a:hover {
     display: flex;
     flex-direction: column;
     justify-self: center;
-    width: 100%;
     padding: 10px;
     margin: 10px; }
   .formbutton {
@@ -312,6 +310,20 @@ h1 a:hover {
   div h5, h6 {
     font-size: 1.5rem; } }
 
+@media screen and (max-width: 1250px) {
+  .logosize {
+    height: 10rem;
+    width: 20rem; } }
+
+@media screen and (max-width: 990px) {
+  .logosize {
+    height: 8rem;
+    width: 16rem; } }
+
+@media screen and (max-width: 770px) {
+  .margenessm {
+    margin: 2rem; } }
+
 form {
   font-family: "Nunito", sans-serif;
   letter-spacing: 1px;
@@ -328,6 +340,9 @@ form select {
   font-size: 18px;
   width: 100%;
   padding: 3px; }
+
+.margenesBodyContacto {
+  margin-bottom: 5rem; }
 
 .margenesFormulario {
   margin: 10px 0;
@@ -372,11 +387,10 @@ form button:hover {
   background-color: #80658e; }
 
 .contenedorGuias {
-  margin: 20px 0; }
+  margin: 2rem 0 4rem; }
 
 .margenesTexto {
-  margin: 30px;
-  text-align: right; }
+  margin: 30px; }
 
 .margenesSecciones {
   margin: 20px; }
@@ -397,15 +411,23 @@ form button:hover {
   margin: 5px; }
 
 @media screen and (max-width: 990px) {
-  .bordeGuias {
-    border-right: none;
-    border-bottom: 2px solid lightgrey;
-    margin: 10px;
-    padding: 10px; }
-  #cabildo {
-    display: none; }
-  #congreso {
-    display: none; } }
+  .imagenGuiasAbout {
+    width: 10rem;
+    height: 10rem; } }
+
+@media screen and (max-width: 574px) {
+  .margenesTexto {
+    text-align: justify; }
+  .xslayout {
+    display: flex;
+    flex-direction: column-reverse; }
+  .xslayoutchild {
+    display: flex;
+    justify-content: center; } }
+
+@media screen and (min-width: 700px) {
+  .margenesTexto {
+    text-align: right; } }
 
 .imagenesReservas {
   display: block;
@@ -431,7 +453,7 @@ form button:hover {
   justify-content: center;
   align-items: center; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
   #columnas {
     display: flex;
     flex-direction: column; }
@@ -477,8 +499,30 @@ section.paseos:hover {
     align-self: center; }
 
 .margenesReservas {
-  margin: 30px;
-  padding: 10px; }
+  margin: 4rem;
+  padding: 2rem; }
+
+@media screen and (min-width: 1400px) {
+  .margenesReservas {
+    margin: 10rem;
+    padding: 2rem; }
+  .margenTours {
+    margin: 2rem; } }
+
+@media screen and (max-width: 1060px) {
+  .margenTours {
+    margin: 1rem; }
+  .imageSize {
+    height: 10rem;
+    width: 25rem; }
+  .flexmd {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 580px) {
+  .imageSize {
+    height: 8rem;
+    width: 20rem; } }
 
 div#regulares {
   transition: all 1s; }
@@ -491,3 +535,6 @@ div#personalizados {
 
 div #personalizados:hover {
   transform: scale(1.05); }
+
+.margenesTours {
+  margin: 5rem; }

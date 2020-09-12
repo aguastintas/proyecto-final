@@ -23,7 +23,7 @@
 	justify-content: center;
 	align-items: center;
 }
-@media screen and (max-width: 768px) {	
+@media screen and (max-width: 1050px) {	
 	#columnas {
 		display: flex;
 		flex-direction: column;
@@ -73,6 +73,36 @@ section.paseos:hover {
 	}
 }
 .margenesReservas {
-	margin: 30px;
-	padding:10px;
+	margin: 4rem;
+	padding:2rem;
+}
+
+@media screen and (min-width: 1400px) {
+	.margenesReservas{
+		margin: 10rem;
+		padding: 2rem;
+	}
+
+	.margenTours {
+		margin: 2rem;
+	}
+}
+@media screen and (max-width: 1060px) {
+	.margenTours {
+		margin: 1rem;
+	}
+	.imageSize {
+		height: 10rem;
+		width: 25rem;
+	}
+	.flexmd {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 580px) {
+	.imageSize{
+		height: 8rem;
+		width: 20rem;
+	}
 }
