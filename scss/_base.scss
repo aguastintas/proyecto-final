@@ -2,7 +2,7 @@ $lila: #80658e;
 $verde: #6bac8a;
 
 @font-face {
-	font: "Nunito";
+	font-family: "Nunito";
 	src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 }
 
@@ -74,5 +74,11 @@ p {
 
 li {
 	font-family: "Nunito", sans-serif;
-
+}
+a {
+    color: white;
+    text-decoration-line: none;
+}
+a:hover {
+    color: $lila;
 }

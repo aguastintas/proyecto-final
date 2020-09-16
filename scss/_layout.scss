@@ -4,63 +4,34 @@ header {
     position: sticky;
     top: 0;
     background-color: $verde;
-    z-index: 500;
+    z-index: 10;
 }
 header img {
     margin-left: 12px;
 }
-header nav {
+nav {
     position: fixed;
     top: 16px;
     right: 22px;
-}
-header h4 {
-    color: black;
-    padding: 10px;
-    text-decoration-line: none;
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-}
-nav {
     text-transform: uppercase;
     letter-spacing: 3px;
     word-spacing: 13px;
-}
-nav a {
-    color: white;
-    text-decoration-line: none;
     font-family: "Nunito", sans-serif;
     font-weight: 300;
 }
-a:hover {
-    color: $lila;
-}
 #menudesplegable {
-    display: none;
-}
-div h4 {
     display: none;
 }
 @media screen and (max-width: 768px) {
     header{
         display: none;
     }
-    div h4{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: 2rem;
-        background-color: $lila;
-        padding: 10px;
-        color: white;
-        margin: 0;
-    }
     #menudesplegable{
         display: flex;
         justify-content: center;
-        position: relative;
-    }
-    .menu {
+        position: sticky;
+        top: 0;
+        z-index: 10;
         background-color: $verde;
     }
     .botonMenu {
@@ -70,14 +41,15 @@ div h4 {
     #menudesplegable button:focus {
         text-decoration: none;
         color: white;
-    }
-    #menudesplegable button:hover {
-        text-decoration: none;
-        color: white;
+        background-color: $lila;
+        box-shadow: none;
     }
     .menuitems {
         font-size: 2rem;
         border: 1px solid grey;
+        width: 100vw;
+        background-color: $lila;
+        color: white;
     }
     #anchomenu {
         justify-content: stretch;
@@ -94,13 +66,7 @@ footer {
     background-color: $lila;
     text-align: center;
     margin: 0;
-}
-footer div {
     color: white;
-}
-footer a {
-    color: white;
-    text-decoration: none;
 }
 .newsletterfooter {
     font-size: 1rem;
