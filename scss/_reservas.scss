@@ -23,16 +23,6 @@
 	justify-content: center;
 	align-items: center;
 }
-@media screen and (max-width: 1050px) {	
-	#columnas {
-		display: flex;
-		flex-direction: column;
-	}
-	.columnaCaja {
-		margin: 2rem;
-		padding: 0.5rem;
-	}
-}
 section.paseos {
 	transition: all 1s;	
 }
@@ -86,6 +76,16 @@ section.paseos:hover {
 	}
 }
 @media screen and (max-width: 1060px) {
+	#columnas {
+		display: flex;
+		flex-direction: column;
+	}
+	.columnaCaja {
+		margin: 2rem;
+		padding: 0.5rem;
+		flex-basis: 0;
+		width: 600px;
+	}
 	.margenTours {
 		margin: 1rem;
 	}
@@ -93,14 +93,28 @@ section.paseos:hover {
 		height: 10rem;
 		width: 25rem;
 	}
-	.flexmd {
-		display: flex;
-		flex-direction: column;
-	}
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 762px) {
+	.columnaCaja {
+		width: 450px;
+	}
 	.imageSize{
 		height: 8rem;
 		width: 20rem;
 	}
+	section.paseos:hover {
+		transform: none;
+	}
+	.flexsm {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		p {
+			justify-self: center;
+			max-width: 50%;
+		}
+	}
+	
 }

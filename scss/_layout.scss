@@ -28,7 +28,8 @@ nav {
     }
     #menudesplegable{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
         position: sticky;
         top: 0;
         z-index: 10;
@@ -36,7 +37,7 @@ nav {
     }
     .botonMenu {
         color: white;
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     #menudesplegable button:focus {
         text-decoration: none;
@@ -45,9 +46,8 @@ nav {
         box-shadow: none;
     }
     .menuitems {
-        font-size: 2rem;
+        font-size: 1.3rem;
         border: 1px solid grey;
-        width: 100vw;
         background-color: $lila;
         color: white;
     }
