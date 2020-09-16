@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Nunito";
   src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"); }
@@ -87,6 +86,15 @@ a {
 
 a:hover {
   color: #80658e; }
+
+.main__link--fuente {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  color: white;
+  padding: 4px;
+  font-size: 0.8rem; }
 
 /* HEADER Y MENU DESPLEGABLE */
 header {
@@ -194,30 +202,6 @@ footer {
   background-color: white;
   padding: 20px 5px 10px 5px; }
 
-.main__subtitulo--fuente {
-  font-family: "Nunito", sans-serif;
-  padding: 10px;
-  margin: 10px;
-  font-weight: 400;
-  color: #80658e;
-  font-size: 1.5em; }
-
-.home__subtitulo--margenes {
-  margin: 10px 20px;
-  padding: 5px; }
-
-.main__link--fuente {
-  font-family: "Nunito", sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-decoration-line: none;
-  color: white;
-  padding: 4px;
-  font-size: 0.8rem; }
-
-.home__card--tamaño {
-  width: 100%; }
-
 .cardtexto {
   margin: 5px;
   padding: 10px;
@@ -243,23 +227,7 @@ footer {
   justify-content: center;
   margin: 5px; }
 
-.div__texto--fuente {
-  font-family: "Nunito", sans-serif;
-  font-size: 0.8rem;
-  padding: 3px;
-  margin: 2px; }
-
-h1 a {
-  text-decoration: none;
-  color: white; }
-
-h1 a:hover {
-  text-decoration: none;
-  color: #6bac8a; }
-
 @media screen and (max-width: 768px) {
-  .main__titulo--fuente a {
-    font-size: 3rem; }
   .card-body {
     display: flex;
     flex-direction: column;
@@ -272,19 +240,13 @@ h1 a:hover {
     margin: 10px; }
   .formbutton {
     display: flex;
-    height: 50px; }
-  div .formbutton {
+    height: 50px;
     justify-self: center; }
   div a {
     align-self: center;
     justify-self: center;
     font-size: 1.5rem;
-    text-align: center; }
-  .div__texto--fuente {
-    font-size: 1.3rem;
-    text-align: center; }
-  div h5, h6 {
-    font-size: 1.5rem; } }
+    text-align: center; } }
 
 @media screen and (max-width: 1250px) {
   .logosize {
@@ -443,9 +405,6 @@ section.paseos {
 section.paseos:hover {
   transform: scale(1.05);
   box-shadow: 20px 20px 5px grey; }
-
-.zindexReservas {
-  z-index: 1; }
 
 .bordeIzq {
   border-left: 2px solid gray; }

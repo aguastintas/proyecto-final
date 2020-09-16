@@ -7,30 +7,6 @@
 	background-color: white;
 	padding: 20px 5px 10px 5px;
 }
-.main__subtitulo--fuente {
-	font-family: "Nunito", sans-serif;
-	padding: 10px;
-	margin: 10px;
-	font-weight: 400;
-	color: $lila;
-	font-size: 1.5em;
-}
-.home__subtitulo--margenes {
-	margin:10px 20px;
-	padding:5px;
-}
-.main__link--fuente {
-	font-family: "Nunito", sans-serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	text-decoration-line: none;
-	color: white;
-	padding: 4px;
-	font-size: 0.8rem;
-}
-.home__card--tamaño {
-	width: 100%;
-}
 .cardtexto {
 	margin: 5px;
 	padding: 10px;
@@ -57,25 +33,7 @@
 	margin: 5px;
 }
 
-.div__texto--fuente {
-	font-family: "Nunito", sans-serif;
-	font-size: 0.8rem;
-	padding: 3px;
-	margin: 2px;
-}
-h1 a {
-	text-decoration: none;
-	color: white;
-}
-h1 a:hover {
-	text-decoration: none;
-	color: $verde;
-}
-
 @media screen and (max-width: 768px) {
-	.main__titulo--fuente a{
-		font-size: 3rem;
-	}
 	.card-body {
 		display:flex;
 		flex-direction: column;
@@ -91,8 +49,6 @@ h1 a:hover {
 	.formbutton {
 		display:flex;
 		height: 50px;
-	}
-	div .formbutton {
 		justify-self: center;
 	}
 	div a {
@@ -100,13 +56,6 @@ h1 a:hover {
 		justify-self: center;
 		font-size:1.5rem;
 		text-align: center;
-	}
-	.div__texto--fuente {
-		font-size: 1.3rem;
-		text-align: center;
-	}
-	div h5, h6 {
-		font-size: 1.5rem;
 	}
 }
 
