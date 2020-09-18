@@ -1,20 +1,22 @@
-@font-face {
-  font-family: "Nunito", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,200;1,300&display=swap"); }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;1,200;1,300&display=swap');
 
 h2 {
+  font-family: "Nunito", sans-serif;
   text-align: center;
   color: #80658e; }
 
 h3 {
+  font-family: "Nunito", sans-serif;
   text-align: center;
   color: #80658e; }
 
 h5 {
+  font-family: "Nunito", sans-serif;
   text-align: center;
   color: #80658e; }
 
 h6 {
+  font-family: "Nunito", sans-serif;
   text-align: center;
   color: #80658e; }
 
@@ -64,6 +66,7 @@ h1 {
   font-size: 1.9em; }
 
 p {
+  font-family: "Nunito", sans-serif;
   text-align: justify;
   margin: 30px 40px;
   padding-bottom: 10px;
