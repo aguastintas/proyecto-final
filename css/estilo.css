@@ -1,24 +1,20 @@
 @font-face {
-  font-family: "Nunito";
-  src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"); }
+  font-family: "Nunito", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,200;1,300&display=swap"); }
 
 h2 {
-  font-family: "Nunito", sans-serif;
   text-align: center;
   color: #80658e; }
 
 h3 {
-  font-family: "Nunito", sans-serif;
   text-align: center;
   color: #80658e; }
 
 h5 {
-  font-family: "Nunito", sans-serif;
   text-align: center;
   color: #80658e; }
 
 h6 {
-  font-family: "Nunito", sans-serif;
   text-align: center;
   color: #80658e; }
 
@@ -60,7 +56,6 @@ main {
   height: 100%; }
 
 h1 {
-  font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-align: center;
   padding-top: 35px;
@@ -69,16 +64,12 @@ h1 {
   font-size: 1.9em; }
 
 p {
-  font-family: "Nunito", sans-serif;
   text-align: justify;
   margin: 30px 40px;
   padding-bottom: 10px;
   font-size: 1em;
   display: flex;
   justify-content: center; }
-
-li {
-  font-family: "Nunito", sans-serif; }
 
 a {
   color: white;
@@ -88,7 +79,6 @@ a:hover {
   color: #80658e; }
 
 .main__link--fuente {
-  font-family: "Nunito", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   text-decoration-line: none;
@@ -226,6 +216,12 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin: 5px; }
+
+.headingHome {
+  text-shadow: white 2px 2px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 10px;
+  padding: 20px; }
 
 @media screen and (max-width: 768px) {
   .card-body {
@@ -431,7 +427,7 @@ section.paseos:hover {
 
 @media screen and (min-width: 1400px) {
   .margenesReservas {
-    margin: 10rem;
+    margin: 1rem;
     padding: 2rem; }
   .margenTours {
     margin: 2rem; } }

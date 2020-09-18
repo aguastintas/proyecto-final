@@ -2,12 +2,11 @@ $lila: #80658e;
 $verde: #6bac8a;
 
 @font-face {
-	font-family: "Nunito";
-	src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+	font-family: "Nunito", sans-serif;
+	src: url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,200;1,300&display=swap");
 }
 
 @mixin estiloTitulos {
-	font-family: "Nunito", sans-serif;
 	text-align: center;
 	color: $lila;
 }
@@ -54,7 +53,6 @@ main {
 	height: 100%;
 }
 h1 {
-	font-family: "Nunito", sans-serif;
 	font-weight: bold;
 	text-align: center;
 	padding-top: 35px;
@@ -63,7 +61,6 @@ h1 {
 	font-size: 1.9em;
 }
 p {
-	font-family: "Nunito", sans-serif;
 	text-align: justify;
 	margin: 30px 40px;
 	padding-bottom: 10px;
@@ -72,9 +69,6 @@ p {
 	justify-content: center;
 }
 
-li {
-	font-family: "Nunito", sans-serif;
-}
 a {
     color: white;
     text-decoration-line: none;
@@ -83,7 +77,6 @@ a:hover {
     color: $lila;
 }
 .main__link--fuente {
-	font-family: "Nunito", sans-serif;
 	font-weight: 300;
 	text-transform: uppercase;
 	text-decoration-line: none;
