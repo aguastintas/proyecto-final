@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;1,200;1,300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;1,200;1,300&display=swap");
 h2 {
   font-family: "Nunito", sans-serif;
   text-align: center;
@@ -468,6 +467,19 @@ section.paseos:hover {
       justify-self: center;
       max-width: 50%; } }
 
+@media screen and (max-width: 480px) {
+  .columnaCaja {
+    width: 300px; }
+  .imagenesReservas {
+    width: 12em;
+    height: 5em; }
+  .imageSize {
+    height: 6.5rem;
+    width: 17rem; }
+  .margenesReservas {
+    margin: 1rem;
+    padding: 1rem; } }
+
 div#regulares {
   transition: all 1s; }
 
@@ -482,3 +494,7 @@ div #personalizados:hover {
 
 .margenesTours {
   margin: 5rem; }
+
+@media screen and (max-width: 480px) {
+  .margenesTours {
+    margin: 1rem; } }

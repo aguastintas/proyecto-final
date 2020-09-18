@@ -1,10 +1,7 @@
 $lila: #80658e;
 $verde: #6bac8a;
 
-@font-face {
-	font-family: "Nunito", sans-serif;
-	src: url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,200;1,300&display=swap");
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;1,200;1,300&display=swap');
 
 @mixin estiloTitulos {
 	font-family: "Nunito", sans-serif;

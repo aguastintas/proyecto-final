@@ -118,3 +118,20 @@ section.paseos:hover {
 	}
 	
 }
+@media screen and (max-width: 480px) {
+	.columnaCaja {
+		width: 300px;
+	}
+	.imagenesReservas {
+		width: 12em;
+		height: 5em;
+	}
+	.imageSize{
+		height: 6.5rem;
+		width: 17rem;
+	}
+	.margenesReservas{
+		margin: 1rem;
+		padding: 1rem;
+	}
+}
